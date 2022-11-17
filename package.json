@@ -1,0 +1,20 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.js": [
+      
+      "prettier --write ."
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
